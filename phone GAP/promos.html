@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <title>Promos</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<div data-role="page">
+  <div data-role="panel" id="mypanel">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="flagship.html">FLAGSHIP</a></li>
+        <li><a href="doctors.html">DOCTORS</a></li>
+        <li><a href="network.html">NETWORK</a></li>
+        <li><a href="features.html">FEATURES</a></li>
+        <li><a href="promos.html">PROMOS</a></li>
+      </ul>
+      <a href="#my-header" data-rel="close">Close panel</a>
+    </div>
+  </div><!-- /panel -->
+  <div data-role="header">
+    <a href="#popupNested" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-bars ui-btn-icon-right ui-btn-a ui-btn-icon-notext" data-transition="pop">Choose a creature...</a>
+    <div data-role="popup" id="popupNested" data-theme="none">
+    <div data-role="collapsibleset" data-theme="b" data-content-theme="a" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" style="margin:0; width:250px;">
+        <div data-role="collapsible" data-inset="false">
+        <h2>Farm animals</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Chicken</a></li>
+                <li><a href="#" data-rel="dialog">Cow</a></li>
+                <li><a href="#" data-rel="dialog">Duck</a></li>
+                <li><a href="#" data-rel="dialog">Sheep</a></li>
+            </ul>
+        </div><!-- /collapsible -->
+        <div data-role="collapsible" data-inset="false">
+        <h2>Pets</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Cat</a></li>
+                <li><a href="#" data-rel="dialog">Dog</a></li>
+                <li><a href="#" data-rel="dialog">Iguana</a></li>
+                <li><a href="#" data-rel="dialog">Mouse</a></li>
+            </ul>
+        </div><!-- /collapsible -->
+        <div data-role="collapsible" data-inset="false">
+        <h2>Ocean Creatures</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Fish</a></li>
+                <li><a href="#" data-rel="dialog">Octopus</a></li>
+                <li><a href="#" data-rel="dialog">Shark</a></li>
+                <li><a href="#" data-rel="dialog">Starfish</a></li>
+            </ul>
+        </div><!-- /collapsible -->
+        <div data-role="collapsible" data-inset="false">
+        <h2>Wild Animals</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Lion</a></li>
+                <li><a href="#" data-rel="dialog">Monkey</a></li>
+                <li><a href="#" data-rel="dialog">Tiger</a></li>
+                <li><a href="#" data-rel="dialog">Zebra</a></li>
+            </ul>
+        </div><!-- /collapsible -->
+    </div><!-- /collapsible set -->
+</div><!-- /popup -->
+  
+  <h1>Tveez :: Promos</h1>
+  <div data-role="navbar">
+        <ul>
+            <li><a href="#">Patient</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Research</a></li>
+        </ul>
+    </div>
+  </div>
+  <div role="main" class="ui-content">
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+  <a class="ui-btn" href="contact.html" data-rel="dialog" data-transition="pop">Contact</a>
+  </div>
+</div>
+</body>
+</html>

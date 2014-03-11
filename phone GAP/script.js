@@ -1,0 +1,1 @@
+$( "#mypanel" ).trigger( "updatelayout" );
